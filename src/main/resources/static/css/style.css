@@ -1,0 +1,42 @@
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+nav a:hover {
+    background-color: #555;
+}
+
+.icone-acesso{
+    display: flex;
+    justify-content: center;
+}
+.alert {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.alert-danger {
+    background-color: #ff68777a;
+}
