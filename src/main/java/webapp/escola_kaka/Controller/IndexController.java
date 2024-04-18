@@ -3,9 +3,6 @@ package webapp.escola_kaka.Controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-
-
-
 @Controller
 public class IndexController {
 
@@ -48,6 +45,4 @@ public class IndexController {
     public String acessoCadastroProf() {
         return "cadastro/cad-prof";
     }
-    
-    
 }

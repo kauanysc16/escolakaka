@@ -12,6 +12,8 @@ public class Aluno implements Serializable {
     private String nome;
     private String curso;
     
+
+    
     public String getMatricula() {
         return matricula;
     }
